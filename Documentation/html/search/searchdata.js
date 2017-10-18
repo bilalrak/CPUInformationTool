@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "cnopqs",
-  1: "pq",
+  0: "cnops",
+  1: "p",
   2: "ops",
   3: "n",
   4: "c"

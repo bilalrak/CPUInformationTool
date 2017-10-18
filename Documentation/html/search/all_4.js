@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qt_5fmeta_5fstringdata_5fprocfs_5ft',['qt_meta_stringdata_procfs_t',['../structqt__meta__stringdata__procfs__t.html',1,'']]]
+  ['setnumofcpus',['setnumOfCPUs',['../classprocfs.html#a2f14fedcbe636a85a2450fd5728e8a9a',1,'procfs']]]
 ];

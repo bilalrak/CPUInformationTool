@@ -140,7 +140,7 @@ int procfs::numOfCPUs()
  * @param a: Dummy variable. Not used in the method.
  *
  * @details The method is left empty since UI is not allowed to change the number of cores found on the machine. The exixtance of this
- * method is mandatory for properly binding the property to qml
+ * method is mandatory for proper binding to qml
  */
 void procfs::setnumOfCPUs(int a)
 {
