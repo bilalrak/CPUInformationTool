@@ -1,0 +1,42 @@
+/**
+\mainpage CPUInformation Tool
+\author Bilal Riasat Ali
+\n candidate: infotainment system - software developer
+
+\section Description
+\subsection Qt-version-used
+Qt version: 5.9.2
+
+\subsection QML-files
+Qml Files:
+\n Backplate.qml
+\n nfoSlidingPanel.qml
+\n TopMostPlate.qml
+\n main.qml
+
+QML imports:
+\n QtQuick 2.7
+\n QtQuick.Controls 2.0
+\n QtQuick.Layouts 1.3
+\n QtQuick.Controls.Styles 1.0
+\n QtGraphicalEffects 1.0
+
+\subsection Software-Architecture
+The C++ back end consist of onlt one class "procfs" which is responsible to parse the /proc/cpuinfo file and store the string data.
+The qml UI creates the processor information view buttons dynamically, based on the property exposed by C++ class. On view button click event
+the qml requests the procfs class (through signal) to update the respective processor information one of its label component.
+The procfs class then load the requested processor information by emitting a signal which is connected to UI label. The procfs class periodically update the
+last requested processor information at 3 second interval to provide real-time information. Real-time update helps visualize the clock frequency changes on each core
+
+\subsection Usage
+Click on the desired core to view its information. Information panel is slided out to reveal this information. Same CPU button if pressed twice closes the information
+panel.
+
+
+\section Note
+This was my first experience to create qml based (QtQcuick) application. Previously I had programmed QtWidget applications.
+
+
+
+
+*/
